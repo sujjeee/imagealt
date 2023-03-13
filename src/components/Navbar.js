@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className='flex font-semibold  tracking-wide items-center gap-5'>
                 <div className='sm:hidden flex gap-3'>
                     <Link
-                        href="https://github.com/sujjeee/imagealt"
+                        href="https://twitter.com/sujjeeee"
                         target="_blank">
                         <AiOutlineTwitter size={25} />
                     </Link>
