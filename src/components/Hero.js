@@ -13,17 +13,16 @@ const Hero = ({ onImageData }) => {
 
     const handleUploadComplete = async (files) => {
         // const fileUrls = files.map(x => x.fileUrl).join(',');
+        setShowModal(true);
 
         try {
             const fileUrls = files.map(x => x.fileUrl).join(',');
             const response = await axios.post(`/api/generate?imageUrl=${fileUrls}`);
 
             if (response.status === 200) {
-                setShowModal(true);
-
                 setTimeout(() => {
                     setShowModal(false);
-                }, 4000);
+                }, 3000);
 
                 setFiles(files.map(x => x.fileUrl).join("\n"));
 
