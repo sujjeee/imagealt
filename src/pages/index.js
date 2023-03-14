@@ -16,9 +16,6 @@ export default function Home() {
     <>
       <Head>
         <title>ImageAlt</title>
-        <meta name="description" content="Generate Alt Text for any Image." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
         <meta name="google-site-verification" content="5z2lDnQ6mdG9S2qZm74DNfOk3xdwLR-orzDHc5XiJxs" />
       </Head>
       <main >
