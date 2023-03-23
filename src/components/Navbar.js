@@ -27,7 +27,7 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <Link
-                    className="hidden sm:flex p-1 rounded-full hover:bg-gradient-to-r from-[#4a00e0] via-[#8e2de2] to-[#ff0080]"
+                    className="hidden sm:flex p-0.5 rounded-full bg-gradient-to-r from-[#4a00e0] via-[#8e2de2] to-[#ff0080]"
                     href="https://github.com/sujjeee/imagealt"
                     target="_blank"
                     rel="noopener noreferrer"

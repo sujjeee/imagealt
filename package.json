@@ -14,6 +14,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
+    "react-spinners": "^0.13.8",
     "react-uploader": "^3.10.0",
     "uploader": "^3.9.0"
   },
