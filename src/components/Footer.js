@@ -6,25 +6,15 @@ const Footer = () => {
         <div><footer >
             <div className="max-w-6xl py-8 px-4 mx-auto  justify-between  items-center text-center  h-16 sm:h-20 w-full  flex sm:flex-row flex-col   space-y-3 sm:mb-0 mb-3 border-gray-500">
                 <div className="text-gray-500">
-                    Inspired by{" "}
-                    <a
-                        href="https://roomgpt.io/"
+                    Powered by{" "}
+                    <Link
+                        href="https://replicate.com/"
                         target="_blank"
                         rel="noreferrer"
                         className="font-bold hover:underline transition hover:text-gray-300 underline-offset-2"
                     >
-                        RoomGPT,{" "}
-                    </a>
-                    and {""}
-                    <a
-                        href="https://alt-text-generator.vercel.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="font-bold hover:underline hover:text-gray-300 transition underline-offset-2"
-                    >
-                        Alt-Text-Generator.
-                    </a>
-
+                        Replicate
+                    </Link>
                 </div>
                 <div className="hidden sm:flex space-x-4 pb-4 sm:pb-0">
                     <Link
