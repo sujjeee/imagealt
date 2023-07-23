@@ -98,16 +98,16 @@ export default function Home() {
           dangerouslySetInnerHTML={{
             __html: `
           <script data-name="BMC-Widget"
-          data-cfasync="false"
-          src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-          data-id="sujjeee"
-          data-description="Support me on Buy me a coffee!"
-          data-message="can you buy me some coffeee  so I can keep this project going? " data-color="#5F7FFF"
-          data-position="Right"
-          data-x_margin="18"
-          data-y_margin="18">
-
-      </script>
+            data-cfasync="false"
+            src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+            data-id="sujjeee"
+            data-description="Support me on Buy me a coffee!"
+            data-message="Hey, can you buy me a coffee so I can keep this project going? 💗" 
+            data-color="#5F7FFF"
+            data-position="Right"
+            data-x_margin="18"
+            data-y_margin="18">
+          </script>
           `,
           }}
         />
